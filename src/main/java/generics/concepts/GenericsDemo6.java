@@ -1,4 +1,4 @@
-package generics;
+package generics.concepts;
 
 import generics.utils.Shape;
 

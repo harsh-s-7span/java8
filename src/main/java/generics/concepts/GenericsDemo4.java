@@ -1,4 +1,4 @@
-package generics;
+package generics.concepts;
 
 // Generic Method Example
 public class GenericsDemo4
