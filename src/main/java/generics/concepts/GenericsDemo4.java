@@ -14,6 +14,8 @@ public class GenericsDemo4
 		printData(characters);
 	}
 
+	// This is how, we can write generic method.
+	// introduced type parameter for generic methods.
 	public static <T> void printData(T[] elements)
 	{
 		for(T t : elements)

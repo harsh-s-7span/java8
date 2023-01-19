@@ -15,6 +15,8 @@ public class BoundDemo6
 		print(productList);
 	}
 
+	// Here, I've used unBounded wildcard, I have to access it with object.
+	// Because Object is the base class of all the objects/classes.
 	public static void print(List<?> list)
 	{
 		for (Object o : list)

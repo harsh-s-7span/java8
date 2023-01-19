@@ -23,6 +23,10 @@ public class BoundDemo3
 		familyTree(sonList);
 		familyTree(grandSonList);
 	}
+
+	// Use of wildcard, Here I don't know, which type of data come but
+	// Whatever type come, I've set upper bound that It must extend the GrandFather class
+	// There is one limitation with upper bound, we cannot modify the data. it's read-only.
 	public static void familyTree(List<? extends GrandFather> list)
 	{
 		for(GrandFather i : list)

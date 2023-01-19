@@ -12,6 +12,7 @@ public class GenericsDemo1
 		System.out.println(genericMethod('A', 'B'));
 	}
 
+	// Adding T type data in List of T
 	static <T> List<T> genericMethod(T arg1, T arg2)
 	{
 		List<T> list = new ArrayList<>();

@@ -20,6 +20,7 @@ public class GenericsDemo5
 		System.out.println(map3);
 	}
 
+	// Taking input is in key-value pair and return the map of same type of key and value.
 	public static <K,V> Map<K,V> getMap(K k, V v)
 	{
 		Map<K, V> map = new HashMap<>();

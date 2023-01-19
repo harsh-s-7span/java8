@@ -16,9 +16,10 @@ public class BoundDemo5
 		sonList.add(new Son("Son"));
 		List<GrandSon> grandSonList = new ArrayList<>();
 		grandSonList.add(new GrandSon("GrandSon"));
-
-
+		// Son class is not a base class of Father, it will give compile time error.
+		// addMember(sonList);
 	}
+	// Here I've set the lower bound that the type must be the base class of Father class.
 	public static void addMember(List<? super Father> list)
 	{
 		list.add(new GrandSon("Son"));

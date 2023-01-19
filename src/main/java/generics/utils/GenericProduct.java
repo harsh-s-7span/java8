@@ -1,5 +1,6 @@
 package generics.utils;
 
+// A class that can accept two different type of data T and U.
 public class GenericProduct<T,U>
 {
 	T id;

@@ -1,5 +1,7 @@
 package generics.utils;
 
+// Before generic, THe generic concept look something like this,
+// We have to use Object class and type cast everytime before using it.
 public class Product
 {
 	Object id;

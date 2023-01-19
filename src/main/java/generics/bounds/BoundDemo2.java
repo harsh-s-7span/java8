@@ -13,6 +13,8 @@ public class BoundDemo2
 		findMaxNumber(30, 4, 59);
 	}
 
+	// Created a method that find the max among the three values of same data type
+	// The type should extend the Comparator interface, so that we can use compareTo() method without any exception
 	public static <T extends Comparable> void findMaxGeneric(T t1, T t2, T t3)
 	{
 		T max = t1;
@@ -24,6 +26,8 @@ public class BoundDemo2
 		System.out.println("Max is " + max);
 	}
 
+	// What if I do not allow someone to compare string from this method. I want to allow only numbers to be compared.
+	// That's why, We have set the upper bound that type must extend Number & Comparable.
 	public static <T extends Number & Comparable> void findMaxNumber(T t1, T t2, T t3)
 	{
 		T max = t1;

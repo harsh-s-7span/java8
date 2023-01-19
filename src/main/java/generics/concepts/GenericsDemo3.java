@@ -5,6 +5,7 @@ import generics.utils.GenericProduct;
 // With generics
 public class GenericsDemo3
 {
+	// After making Product Generic, The compiler will handle all the things with ensures type safety.
 	public static void main(String[] args)
 	{
 		GenericProduct<Integer, String> product = new GenericProduct<>(1,"Mouse");
