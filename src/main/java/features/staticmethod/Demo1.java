@@ -6,7 +6,7 @@ public class Demo1 implements StaticMethodInterface1
 	{
 		Demo1 demo1 = new Demo1();
 		// demo1.test();
-		// Demo1.test();
+		// BeforeGenerics1.test();
 		StaticMethodInterface1.test();
 	}
 }

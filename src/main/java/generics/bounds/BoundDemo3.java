@@ -29,6 +29,7 @@ public class BoundDemo3
 	// There is one limitation with upper bound, we cannot modify the data. it's read-only.
 	public static void familyTree(List<? extends GrandFather> list)
 	{
+
 		for(GrandFather i : list)
 		{
 			System.out.println("Class is " + i.getClass().getName());
