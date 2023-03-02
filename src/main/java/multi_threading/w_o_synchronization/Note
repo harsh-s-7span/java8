@@ -1,0 +1,6 @@
+This package contains the program to demonstrate the problem may occur
+if we won't use synchronization in our application.
+
+Run multiple times to see the result.
+
+seats cannot be in minus. (you know this..)

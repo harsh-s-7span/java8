@@ -1,0 +1,11 @@
+
+-> Created two objects and try to book the seats.
+-> I have used synchronised method.
+-> There are two different objects, so it will produce inconsistent result.
+-> Total seats are 10. But we are using two objects so each object contains 10 seats. (Total 20 seats)
+
+=> Solutions
+
+-> use keyword "static synchronise"
+-> It will remove the concept of object level locking and apply the class level lock.
+-> So, this code is now independent from the objects.
